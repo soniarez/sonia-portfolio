@@ -1,38 +1,47 @@
 import React from 'react';
+import makeTheImpossible from '../assets/makeTheImpossible1.jpg';
 
 const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full bg-gradient-to-b md:h-screen from-gray-800 to-black text-white "
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-teal-500">
-            About:
-          </p>
-          <p className="text-xl mt-20">
-            Welcome to my site!
-            <br />
-            <br />
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between h-full p-4 md:flex-row">
+        <div className="flex flex-col justify-center h-full text-justify">
+          <div className="pb-8">
+            <p className="text-4xl font-bold inline border-b-4 border-teal-500 text-white">
+              About
+            </p>
+          </div>
+
+          <p className="max-w-md ">
             My name is Sonia Reyes, and as you may have noticed, I'm a Front End
-            Developer based in Chile. But I haven't always been a web developer.
-            I studied, and for years worked in the business related field.
+            Developer based in Chile. I also studied, and for years I worked in the
+            business related field.
           </p>
-          <br />
-          <p className="text-xl">
+
+          <p className="max-w-md mt-2 ">
             In 2019 I had the amazing opportunity of getting into Start-Up Chile
-            with a project focused on construtech. And from there, I fell in
-            love with the tech world. I took a leap of faith and made my
-            decition that coding was my thing. That is how in 2022 I applied and
-            was selected to enter Laboratoria's full-time FrontEnd Bootcamp.
+            with a startup focused on construtech. And from there, I fell in
+            love with the tech world. I realized that coding was my
+            thing! <br /> In 2022, I applied and was selected to enter
+            Laboratoria's full-time FrontEnd Bootcamp.
+
+            <p className="max-w-md mt-2">
+            In addition, my background in business has helped me to develop projects
+            with a broad vision that seeks to create and improve user
+            experience.
+            </p>
           </p>
-          <br />
-          <p className='text-xl'>
-            Right now, I work mostly with React, Javascript, HTML and CSS. Also,
-            my background in business has helped me to create projects with a
-            broad vision that seeks to create and improve user experience.
-          </p>
+        </div>
+
+        <div>
+          <img
+            src={makeTheImpossible}
+            alt="my motto"
+            className="rounded-2xl mx-auto w-2/3 md:w-full"
+          />
         </div>
       </div>
     </div>

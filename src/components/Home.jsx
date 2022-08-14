@@ -20,8 +20,8 @@ const Home = () => {
             also have a background and experience in Business Administration.
             <br />
             <br />
-            Currently, I'm working mostly with React, JavaScript, HTML5 and
-            CSS3.
+            Currently, I'm working mostly with <strong>React, JavaScript, HTML5 and
+            CSS3.</strong>
           </p>
           <div>
             <Link to="portfolio" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-teal-500 to-emerald-500 cursor-pointer">
