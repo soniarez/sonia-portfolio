@@ -10,3 +10,9 @@
         font-family: 'Poppins', sans-serif; 
     }
 }
+
+#animation {
+    min-height: 236px;
+    max-height: 236px;
+}
+
