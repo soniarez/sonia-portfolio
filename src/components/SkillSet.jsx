@@ -9,7 +9,7 @@ import node from '../assets/node.png';
 import reactImg from '../assets/react.png';
 import vite from '../assets/vite.png';
 
-const Skills = () => {
+const SkillSet = () => {
   const techs = [
     {
       id: 1,
@@ -97,4 +97,4 @@ const Skills = () => {
 
 };
 
-export default Skills;
+export default SkillSet;
