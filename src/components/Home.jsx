@@ -73,7 +73,7 @@ const Home = () => {
           </TrackVisibility>
           <div id="description">
             <p className="text-gray-500 py-4 max-w-md text-justify ">
-              I'm Sonia Reyes, FrontEnd Developer. I've always been passionate about technology and
+              I'm Sonia Reyes, a FrontEnd Developer. I've always been passionate about technology and
               creating things, getting to know and understand how things work. I
               also have a background and experience in Business Administration.
               <br />
