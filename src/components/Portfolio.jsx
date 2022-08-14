@@ -10,40 +10,42 @@ const Portfolio = () => {
     {
       id: 1,
       src: cardValidation,
-      demo: "https://kapehe.io/",
+      demo: 'https://iankat.github.io/SCL020-card-validation/src/',
     },
     {
       id: 2,
       src: memoryMatch,
-      demo: "https://stackoverflow.com/questions/45764602/icon-link-without-text-eslint-error"
+      demo: 'https://scl-020-memory-match.vercel.app/',
     },
 
     {
       id: 3,
       src: socialNetwork,
-      demo: "https://nerdcave.com/tailwind-cheat-sheet",
+      demo: 'https://scl-020-social-network.vercel.app/',
     },
 
     {
       id: 4,
       src: mdLinks,
-      demo: "https://es.wikipedia.org/wiki/Canis_familiaris",
+      demo: 'https://www.npmjs.com/package/@soniarez/md-links',
     },
 
     {
       id: 5,
       src: burguerQueen,
-      demo: "https://es.wikipedia.org/wiki/Lim%C3%B3n",
+      demo: 'https://es.wikipedia.org/wiki/Lim%C3%B3n',
     },
   ];
 
-  
- const takeToDemo = (id) => {
-    console.log(id)
-   return ( <a href="https://google.com" target="_blank" rel="noreferrer">l</a> )
+  //Another way (not so good) of redirect link
+/*   const takeToDemo = id => {
+    projects.map(item => {
+      if (item.id === id) {
+       window.location.href = `${item.demo}`
+      }
+    });
+  }; */
 
-  }
- 
   return (
     <div
       name="portfolio"
@@ -59,14 +61,20 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {projects.map(project => (
-            <div key={project.id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div
+              key={project.id}
+              className="shadow-md shadow-gray-600 rounded-lg"
+            >
               <img
                 src={project.src}
                 alt="my-projects"
                 className="rounded-md hover:scale-105 duration-200"
               />
               <div className="flex items-center justify-center">
-                <button onClick={() => takeToDemo(project.id)}   className="w-1/2 py-3 m-4 hover:scale-150 duration-200">
+                <button
+                  onClick={() => window.open(project.demo)}
+                  className="w-1/2 py-3 m-4 hover:scale-150 duration-200"
+                >
                   Demo
                 </button>
                 {/* <button className="w-1/2 py-3 m-4 hover:scale-150 duration-200">
