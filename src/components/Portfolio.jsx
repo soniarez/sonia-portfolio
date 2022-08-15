@@ -11,29 +11,34 @@ const Portfolio = () => {
       id: 1,
       src: cardValidation,
       demo: 'https://iankat.github.io/SCL020-card-validation/src/',
+      about: "https://github.com/soniarez/SCL020-card-validation.git",
     },
     {
       id: 2,
       src: memoryMatch,
       demo: 'https://scl-020-memory-match.vercel.app/',
+      about: "https://github.com/soniarez/SCL020-memory-match.git",
     },
 
     {
       id: 3,
       src: socialNetwork,
       demo: 'https://scl-020-social-network.vercel.app/',
+      about: "https://github.com/soniarez/SCL020-social-network.git",
     },
 
     {
       id: 4,
       src: mdLinks,
       demo: 'https://www.npmjs.com/package/@soniarez/md-links',
+      about: "https://github.com/soniarez/SCL020-md-links.git",
     },
 
     {
       id: 5,
       src: burguerQueen,
       demo: 'https://es.wikipedia.org/wiki/Lim%C3%B3n',
+      about: "https://nerdcave.com/tailwind-cheat-sheet",
     },
   ];
 
@@ -71,9 +76,9 @@ const Portfolio = () => {
                 <button onClick={() => window.open(project.demo)} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
-                {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button> */}
+                <button onClick={() => window.open(project.about)} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  About
+                </button> 
               </div>
             </div>
           ))}
