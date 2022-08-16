@@ -38,7 +38,7 @@ const Portfolio = () => {
       id: 5,
       src: burguerQueen,
       demo: 'https://es.wikipedia.org/wiki/Lim%C3%B3n',
-      about: "https://nerdcave.com/tailwind-cheat-sheet",
+      about: "https://scl-020-burger-queen.vercel.app/",
     },
   ];
 

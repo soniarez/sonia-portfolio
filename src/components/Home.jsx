@@ -5,7 +5,6 @@ import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { Link } from 'react-scroll';
 
 const Home = () => {
-  
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
@@ -71,17 +70,20 @@ const Home = () => {
               <ComponentToTrack />
             </div>
           </TrackVisibility>
-          <div id="description">
-            <p className="text-gray-500 py-4 max-w-md text-justify ">
-              I'm Sonia Reyes, a FrontEnd Developer. I've always been passionate about technology and
-              creating things, getting to know and understand how things work. I
-              also have a background and experience in Business Administration.
-              <br />
-              <br />
-              Currently, I'm working mostly with{' '}
-              <strong>React, JavaScript, HTML5 and CSS3.</strong>
-            </p>
-          </div>
+          <p className=" text-4xl sm:text-7xl md:hidden lg:hidden font-bold text-white">
+            I'm a FrontEnd Developer
+          </p>
+
+          <p className="text-gray-500 py-4 max-w-md text-justify ">
+            I'm Sonia Reyes, a FrontEnd Developer. I've always been passionate
+            about technology and creating things, getting to know and understand
+            how things work. I also have a background and experience in Business
+            Administration.
+            <br />
+            <br />
+            Currently, I'm working mostly with{' '}
+            <strong>React, JavaScript, HTML5 and CSS3.</strong>
+          </p>
 
           <div>
             <Link
