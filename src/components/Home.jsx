@@ -70,7 +70,7 @@ const Home = () => {
               <ComponentToTrack />
             </div>
           </TrackVisibility>
-          <p className=" text-4xl sm:text-7xl md:hidden lg:hidden font-bold text-white">
+          <p id="iphone-se"className=" text-4xl sm:text-7xl md:hidden lg:hidden font-bold text-white">
             I'm a FrontEnd Developer
           </p>
 

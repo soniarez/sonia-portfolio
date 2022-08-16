@@ -16,3 +16,8 @@
     max-height: 236px;
 }
 
+@media only screen and (max-width: 380px )
+{ #iphone-se {
+    margin-top: 75px;
+    font-size: 25px;
+}}
