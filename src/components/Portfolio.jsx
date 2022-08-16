@@ -7,39 +7,36 @@ import burguerQueen from '../assets/portfolio/burguerQueen.png';
 
 const Portfolio = () => {
   const projects = [
-    {
-      id: 1,
-      src: cardValidation,
-      demo: 'https://iankat.github.io/SCL020-card-validation/src/',
-      about: "https://github.com/soniarez/SCL020-card-validation.git",
-    },
-    {
-      id: 2,
-      src: memoryMatch,
-      demo: 'https://scl-020-memory-match.vercel.app/',
-      about: "https://github.com/soniarez/SCL020-memory-match.git",
-    },
-
-    {
-      id: 3,
-      src: socialNetwork,
-      demo: 'https://scl-020-social-network.vercel.app/',
-      about: "https://github.com/soniarez/SCL020-social-network.git",
-    },
-
-    {
-      id: 4,
-      src: mdLinks,
-      demo: 'https://www.npmjs.com/package/@soniarez/md-links',
-      about: "https://github.com/soniarez/SCL020-md-links.git",
-    },
-
-    {
-      id: 5,
-      src: burguerQueen,
-      demo: 'https://es.wikipedia.org/wiki/Lim%C3%B3n',
-      about: "https://scl-020-burger-queen.vercel.app/",
-    },
+      {
+        id: 1,
+        src: burguerQueen,
+        demo: 'https://es.wikipedia.org/wiki/Lim%C3%B3n',
+        about: "https://scl-020-burger-queen.vercel.app/",
+      },
+      {
+        id: 2,
+        src: mdLinks,
+        demo: 'https://www.npmjs.com/package/@soniarez/md-links',
+        about: "https://github.com/soniarez/SCL020-md-links.git",
+      },
+      {
+        id: 3,
+        src: socialNetwork,
+        demo: 'https://scl-020-social-network.vercel.app/',
+        about: "https://github.com/soniarez/SCL020-social-network.git",
+      },
+      {
+        id: 4,
+        src: memoryMatch,
+        demo: 'https://scl-020-memory-match.vercel.app/',
+        about: "https://github.com/soniarez/SCL020-memory-match.git",
+      },
+      {
+        id: 5,
+        src: cardValidation,
+        demo: 'https://iankat.github.io/SCL020-card-validation/src/',
+        about: "https://github.com/soniarez/SCL020-card-validation.git",
+      },
   ];
 
   //Another way (not so good) of redirect link
