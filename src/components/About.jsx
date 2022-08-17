@@ -17,21 +17,20 @@ const About = () => {
 
           <p className="max-w-md ">
             My name is Sonia Reyes, and as you may have noticed, I'm a Front End
-            Developer based in Chile. I also studied, and for years I worked in the
-            business related field.
+            Developer based in Chile. I also studied, and worked for years in
+            the business and project management related field.
           </p>
 
           <p className="max-w-md mt-2 ">
             In 2019 I had the amazing opportunity of getting into Start-Up Chile
             with a startup focused on construtech. And from there, I fell in
-            love with the tech world. I realized that coding was my
-            thing! <br /> In 2022, I applied and was selected to enter
-            Laboratoria's full-time FrontEnd Bootcamp.
-
+            love with the tech world. <br /> In 2022, I applied and was selected
+            to enter Laboratoria's full-time FrontEnd Bootcamp, where I realized
+            that coding is my thing!
             <p className="max-w-md mt-2">
-            In addition, my background in business has helped me to develop projects
-            with a broad vision that seeks to create and improve user
-            experience.
+              In addition, my background in business has helped me to develop
+              projects with a broad vision that seeks to create and improve user
+              experience.
             </p>
           </p>
         </div>

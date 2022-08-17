@@ -70,15 +70,18 @@ const Home = () => {
               <ComponentToTrack />
             </div>
           </TrackVisibility>
-          <p id="iphone-se"className=" text-4xl sm:text-7xl md:hidden lg:hidden font-bold text-white">
+          <p
+            id="iphone-se"
+            className=" text-4xl sm:text-7xl md:hidden lg:hidden font-bold text-white"
+          >
             I'm a FrontEnd Developer
           </p>
 
           <p className="text-gray-500 py-4 max-w-md text-justify ">
-            I'm Sonia Reyes, a FrontEnd Developer. I've always been passionate
-            about technology and creating things, getting to know and understand
-            how things work. I also have a background and experience in Business
-            Administration.
+            I'm Sonia Reyes, a FrontEnd Developer with previous studies, and a
+            master's degree in Business Administration. I've always been
+            passionate about technology and creating things, getting to know and
+            understand how things work. 
             <br />
             <br />
             Currently, I'm working mostly with{' '}
