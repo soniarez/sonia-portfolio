@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: './SoniaReyesResume.pdf',
+      href: '/SoniaReyes_CV.pdf',
       style: 'rounded-br-md',
       download: true,
     },
@@ -58,7 +58,7 @@ const SocialLinks = () => {
           >
             <a
               href={link.href}
-              className="flex justify-between items-center w-full text-white"
+              className="flex items-center justify-between w-full text-white"
               download={link.download}
               target="_blank"
               rel='noreferrer'
