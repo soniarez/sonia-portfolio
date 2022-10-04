@@ -14,63 +14,63 @@ const SkillSet = () => {
   const techs = [
     {
       id: 1,
-      src: figma,
-      title: 'Figma',
-      style: 'shadow-emerald-600',
-    },
-    {
-      id: 2,
-      src: html,
-      title: 'HTML',
-      style: 'shadow-orange-500',
-    },
-    {
-      id: 3,
-      src: css,
-      title: 'CSS3',
-      style: 'shadow-blue-500',
-    },
-    {
-      id: 4,
-      src: tailwind,
-      title: 'Tailwind',
-      style: 'shadow-teal-500',
-    },
-    {
-      id: 5,
       src: javascript,
       title: 'Javascript',
       style: 'shadow-yellow-500',
     },
     {
-      id: 6,
+      id: 2,
       src: reactImg,
       title: 'React',
       style: 'shadow-blue-600',
     },
     {
-      id: 7,
+      id: 3,
+      src: html,
+      title: 'HTML',
+      style: 'shadow-orange-500',
+    },
+    {
+      id: 4,
+      src: css,
+      title: 'CSS3',
+      style: 'shadow-blue-500',
+    },
+    {
+      id: 5,
+      src: tailwind,
+      title: 'Tailwind',
+      style: 'shadow-teal-500',
+    },
+    {
+      id: 6,
       src: node,
       title: 'Node JS',
       style: 'shadow-green-800',
     },
     {
-      id: 8,
+      id: 7,
       src: firebase,
       title: 'Firebase',
       style: 'shadow-yellow-500',
     },
     {
-      id: 9,
+      id: 8,
       src: vite,
       title: 'Vite',
       style: 'shadow-violet-500',
     },
     {
-      id: 10,
+      id: 9,
       src: git,
       title: 'Git',
       style: 'shadow-orange-600',
+    },
+    {
+      id: 10,
+      src: figma,
+      title: 'Figma',
+      style: 'shadow-emerald-600',
     },
   ];
 
