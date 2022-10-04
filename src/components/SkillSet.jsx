@@ -1,5 +1,6 @@
 import React from 'react';
 import css from '../assets/css.png';
+import tailwind from '../assets/tailwind.png';
 import figma from '../assets/figma.png';
 import firebase from '../assets/firebase.png';
 import git from '../assets/git.png';
@@ -31,36 +32,42 @@ const SkillSet = () => {
     },
     {
       id: 4,
+      src: tailwind,
+      title: 'Tailwind',
+      style: 'shadow-teal-500',
+    },
+    {
+      id: 5,
       src: javascript,
       title: 'Javascript',
       style: 'shadow-yellow-500',
     },
     {
-      id: 5,
+      id: 6,
       src: reactImg,
       title: 'React',
       style: 'shadow-blue-600',
     },
     {
-      id: 6,
+      id: 7,
       src: node,
       title: 'Node JS',
       style: 'shadow-green-800',
     },
     {
-      id: 7,
+      id: 8,
       src: firebase,
       title: 'Firebase',
       style: 'shadow-yellow-500',
     },
     {
-      id: 8,
+      id: 9,
       src: vite,
       title: 'Vite',
       style: 'shadow-violet-500',
     },
     {
-      id: 9,
+      id: 10,
       src: git,
       title: 'Git',
       style: 'shadow-orange-600',
@@ -70,17 +77,17 @@ const SkillSet = () => {
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-full"
+      className="w-full h-full bg-gradient-to-b from-gray-800 to-black"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="flex flex-col justify-center w-full h-full max-w-screen-lg p-4 mx-auto text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-teal-500 p-2 inline">
+          <p className="inline p-2 text-4xl font-bold border-b-4 border-teal-500">
             Skills
           </p>
           <p className="py-6">Some of the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="grid w-full grid-cols-2 gap-8 px-12 py-8 text-center sm:grid-cols-3 sm:px-0">
           {techs.map(tech => (
             <div
               key={tech.id}
